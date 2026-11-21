@@ -1,0 +1,18 @@
+{
+  "ingredients": [
+    { "id": 1, "name": "Biji kopi", "unit": "kg", "stock": 8, "minStock": 3 },
+    { "id": 2, "name": "Susu cair", "unit": "liter", "stock": 12, "minStock": 5 },
+    { "id": 3, "name": "Gula pasir", "unit": "kg", "stock": 6, "minStock": 2 },
+    { "id": 4, "name": "Telur", "unit": "butir", "stock": 60, "minStock": 30 },
+    { "id": 5, "name": "Mie kuning", "unit": "kg", "stock": 5, "minStock": 3 },
+    { "id": 6, "name": "Beras", "unit": "kg", "stock": 25, "minStock": 10 },
+    { "id": 7, "name": "Daging ayam", "unit": "kg", "stock": 4, "minStock": 5 },
+    { "id": 8, "name": "Udang", "unit": "kg", "stock": 0, "minStock": 2 },
+    { "id": 9, "name": "Tepung sagu", "unit": "kg", "stock": 6, "minStock": 2 },
+    { "id": 10, "name": "Santan", "unit": "liter", "stock": 3, "minStock": 4 }
+  ],
+  "movements": [
+    { "id": 1, "ingredientId": 7, "type": "keluar", "qty": 3, "note": "Dipakai menu makan siang", "date": "2026-11-19T12:30:00+07:00", "userId": 5 },
+    { "id": 2, "ingredientId": 1, "type": "masuk", "qty": 5, "note": "Belanja mingguan", "date": "2026-11-18T08:00:00+07:00", "userId": 1 }
+  ]
+}

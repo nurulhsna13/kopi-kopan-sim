@@ -1,0 +1,22 @@
+{
+  "roles": [
+    { "id": 1, "code": "owner", "name": "Pemilik" },
+    { "id": 2, "code": "kasir", "name": "Kasir" },
+    { "id": 3, "code": "pelayan", "name": "Pelayan" },
+    { "id": 4, "code": "dapur", "name": "Dapur" }
+  ],
+  "shifts": [
+    { "id": 1, "name": "Pagi", "startTime": "07:00", "endTime": "15:00" },
+    { "id": 2, "name": "Sore", "startTime": "15:00", "endTime": "23:00" }
+  ],
+  "users": [
+    { "id": 1, "roleId": 1, "shiftId": null, "name": "Pemilik Kopan", "username": "owner", "password": "owner123", "phone": "081200000001", "active": true },
+    { "id": 2, "roleId": 2, "shiftId": 1, "name": "Dewi", "username": "kasir", "password": "kasir123", "phone": "081200000002", "active": true },
+    { "id": 3, "roleId": 3, "shiftId": 1, "name": "Rafi", "username": "pelayan", "password": "pelayan123", "phone": "081200000003", "active": true },
+    { "id": 4, "roleId": 3, "shiftId": 2, "name": "Siti", "username": "siti", "password": "siti123", "phone": "081200000004", "active": true },
+    { "id": 5, "roleId": 4, "shiftId": 1, "name": "Anto", "username": "dapur", "password": "dapur123", "phone": "081200000005", "active": true },
+    { "id": 6, "roleId": 4, "shiftId": 2, "name": "Budi", "username": "budi", "password": "budi123", "phone": "081200000006", "active": true },
+    { "id": 7, "roleId": 3, "shiftId": 1, "name": "Lina", "username": "lina", "password": "lina123", "phone": "081200000007", "active": true },
+    { "id": 8, "roleId": 2, "shiftId": 2, "name": "Eko", "username": "eko", "password": "eko123", "phone": "081200000008", "active": true }
+  ]
+}
